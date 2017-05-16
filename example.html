@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" placeholder="enter number" id="X">
+    <input type="text" placeholder="enter pow" id="N">
+    <input type="text" placeholder="result" id="result">
+    
+    <button id="Pow">Run pow!</button>
+    <script>
+        const inputResult = document.getElementById('result')
+        const inputX = document.getElementById('X')
+        const inputN = document.getElementById('N')
+        const buttonPow = document.getElementById('Pow')
+
+        pow = (x, n) => {
+            let result = x
+            for (let i = 1; i < n; i++) {
+                result = result * x
+            }
+            return result
+        }
+
+        buttonPow.addEventListener('click', () => {
+            
+            console.log('result is: ', pow(inputX.value, inputN.value))
+            inputResult.value = pow(inputX.value, inputN.value)
+        })
+       
+     
+
+    </script>
+</body>
+
+</html>
