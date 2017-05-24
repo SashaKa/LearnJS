@@ -4,8 +4,8 @@
 
 
 fibBinet = (n) => {
-    const phi = (1 + Math.sqrt (n) ) / 2 
-    return Math.round = ( Math.pow( phi,n) / Math.sqrt (5)) 
+    const phi = (1 + Math.sqrt (5) ) / 2 
+    return Math.round = ( Math.pow(phi, n) / Math.sqrt (5)) 
 }
 
 console.log (fibBinet (77))
