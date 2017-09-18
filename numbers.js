@@ -1,4 +1,0 @@
-
-sumNumbers = (x, y) => {
-    
-}

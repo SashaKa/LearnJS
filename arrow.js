@@ -35,3 +35,18 @@ if ([].indexOf) {
     }
 console.log (find[1, '5', 6], 6)
 
+
+
+// Создайте пустой объект user.
+// Добавьте свойство name со значением Вася.
+// Добавьте свойство surname со значением Петров.
+// Поменяйте значение name на Сергей.
+// Удалите свойство name из объекта.
+
+const user = {}
+user.name = "Vasya"
+user.surname = "Petrov"
+user.name = "Sergey"
+delete. user.name
+
+console.log (user.name)   

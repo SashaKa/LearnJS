@@ -1,0 +1,44 @@
+body {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+.answer-wrap {
+  padding: 30px;
+  background: #522852;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.answer-span {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+#answer {
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 26px;
+  color: blueviolet;
+}
+.btns-wrap {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  margin: 10px auto;
+  padding: 10px 15px;
+  font-size: 24px;
+  border: 2px solid violet;
+  background: transparent;
+}
+#questWord {
+  color: darkmagenta;
+}
